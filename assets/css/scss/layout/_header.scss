@@ -1,9 +1,10 @@
 .site-header {
-	position: fixed;
-	width: 100%;
+	//position: fixed;
+	//width: 100%;
+	position: sticky;
+	top: 0;
 	z-index: 9999;
-	background-color: rgba($medium-gray, 0.95);
-	border-top: 3px solid $primary-color;
+	background-color: rgba($dark-gray, 0.95);
 	padding: 1.5rem 2rem;
 	transition: all 300ms linear;
 
@@ -22,8 +23,10 @@
 
 	.site-logo {
 		float: left;
+		width: 200px;
 
-		a {
+		a,
+		img {
 			display: block;
 		}
 
@@ -34,6 +37,5 @@
 }
 
 .site-header.is-active {
-	border-top: 3px solid $primary-color;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }

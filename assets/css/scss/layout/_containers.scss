@@ -8,11 +8,11 @@
 
 .site-inner {
 	max-width: 100%;
-	padding: $base-spacing * 4.5 0 $base-spacing;
+	padding: $base-spacing * 2.5 0 $base-spacing;
 
-	@include media(medium) {
-		padding: $base-spacing * 5 0 $base-spacing;
-	}
+	/* @include media(medium) {
+		padding: $base-spacing * 2 0 $base-spacing;
+	} */
 }
 
 .wrap {

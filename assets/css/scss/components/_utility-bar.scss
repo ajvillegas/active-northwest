@@ -1,0 +1,37 @@
+/* ## Utility Bar
+--------------------------------------------- */
+
+.utility-bar {
+	background-color: $medium-gray;
+	color: #fff;
+	padding: 1.5rem 0;
+}
+
+.utility-bar .social {
+	float: left;
+
+	a {
+		display: block;
+		height: 25px;
+		width: 25px;
+	}
+
+	.facebook a {
+		background: url(../images/icons/facebook.svg) no-repeat center left;
+	}
+
+	.twitter a {
+		background: url(../images/icons/twitter.svg) no-repeat center left;
+	}
+}
+
+.utility-bar .date {
+	float: right;
+	font-weight: 600;
+	font-size: 1.6rem;
+
+	span {
+		text-transform: uppercase;
+		letter-spacing: 0.05rem;
+	}
+}

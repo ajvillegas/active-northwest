@@ -2,7 +2,7 @@
 --------------------------------------------- */
 
 fieldset {
-	background-color: lighten($base-border-color, 10%);
+	background-color: $very-light-gray;
 	border: $base-border;
 	margin: 0 0 $small-spacing;
 	padding: $base-spacing;
@@ -11,7 +11,7 @@ fieldset {
 label,
 input,
 select {
-	font-family: $heading-font-family;
+	font-family: $base-font-family;
 	font-size: $base-font-size;
 }
 

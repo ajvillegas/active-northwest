@@ -52,6 +52,10 @@ h6 {
 	font-weight: 700;
 }
 
+h1 {
+	margin: 0 0 $base-spacing;
+}
+
 h5,
 h6 {
 	color: $primary-color;
@@ -62,7 +66,7 @@ h6 {
 // Use a modular scale to size all headings automatically.
 @for $i from 1 through 6 {
 	h#{$i} {
-		font-size: modular-scale((6 - $i), 1.3rem, $major-third);
+		font-size: modular-scale((6 - $i), 1.8rem, $major-third);
 	}
 }
 

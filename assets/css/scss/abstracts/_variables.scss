@@ -3,7 +3,7 @@ $max-width: 1140px;
 $column-gutter: 30px;
 
 // Font families.
-$heading-font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+$heading-font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
 $base-font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
 
 // Font size.
@@ -20,14 +20,14 @@ $small-spacing: $base-spacing / 1.5; // 20px
 $base-z-index: 0;
 
 // Base colors.
-$primary-color: #4173bb;
-$secondary-color: #333;
-$tertiary-color: #34b79d;
+$primary-color: #fb2740;
+$secondary-color: #17191d;
+$tertiary-color: #04d8bf;
 
-$dark-gray: #333;
-$medium-gray: #767676;
-$light-gray: #ddd;
-$very-light-gray: #f9f9f9;
+$dark-gray: #272a2f;
+$medium-gray: #474d57;
+$light-gray: #d8d8d8;
+$very-light-gray: #f7f6f6;
 
 $alert-color: #fff6bf;
 $error-color: #fbe3e4;
@@ -39,7 +39,7 @@ $base-background-color: #fff;
 $base-font-color: $dark-gray;
 
 // Border.
-$base-border-color: $light-gray;
+$base-border-color: #ddd;
 $base-border: 1px solid $base-border-color;
 
 // Forms.

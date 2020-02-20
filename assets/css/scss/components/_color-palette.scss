@@ -102,7 +102,7 @@
 
 			.heading,
 			.value {
-				color: darken($secondary-color, 60%);
+				color: lighten($dark-gray, 30%);
 			}
 		}
 
@@ -134,7 +134,7 @@
 
 			.heading,
 			.value {
-				color: darken($dark-gray, 60%);
+				color: lighten($dark-gray, 30%);
 			}
 		}
 
