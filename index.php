@@ -39,70 +39,7 @@
 			</li>
 		</ul>
 
-		<div class="utility-bar">
-			<div class="wrap">
-				<div class="social">
-					<ul class="horizontal">
-						<li class="facebook">
-							<a href="http://www.facebook.com" title="Facebook">
-								<span class="screen-reader-text">Follow Us on Facebook</span>
-							</a>
-						</li>
-						<li class="twitter">
-							<a href="http://www.twitter.com" title="Twitter">
-								<span class="screen-reader-text">Follow Us on Twitter</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="date"><span>Event Date:</span> March 28-29, 2020</div>
-			</div>
-		</div>
-
-		<header class="site-header">
-			<div class="wrap">
-				<div class="site-logo">
-					<a href="index.html">
-						<img src="assets/images/logo.svg" alt="Ace in the Hole Logo" />
-						<p class="screen-reader-text">Ace in the Hole</p>
-					</a>
-				</div>
-
-				<nav id="navigation" class="nav-menu" aria-label="primary">
-					<button class="menutoggle" aria-haspopup="true" aria-expanded="false" data-menu-id="primary-menu">
-						<span class="navicon"></span>
-						<span class="screen-reader-text">Menu</span>
-					</button>
-
-					<ul id="primary-menu">
-						<li class="currentpage">
-							<a href="#" class="navlink"><span>Home</span></a>
-						</li>
-						<li>
-							<a href="#" class="navlink"><span>About</span></a>
-						</li>
-						<li class="submenu">
-							<a href="#" class="submenutoggle" role="button" aria-haspopup="true" aria-expanded="false" data-submenu-id="register"><span>Register</span></a>
-
-							<ul id="register">
-								<li>
-									<a href="#" class="navlink">Athletes</a>
-								</li>
-								<li>
-									<a href="#" class="navlink">Volunteers</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="#" class="navlink"><span>Gallery</span></a>
-						</li>
-						<li>
-							<a href="#" class="navlink"><span>Colors</span></a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
+		<?php require 'includes/header.php'; ?>
 
 		<main class="site-inner">
 			<section class="hero-image">
@@ -560,79 +497,7 @@ var tomorrow = function tomorrow() {
 			</section>
 		</main>
 
-		<footer id="footer" class="site-footer">
-			<div class="widgets wrap">
-				<div class="first one-third contact">
-					<h4>Contact Us</h4>
-
-					<div class="address">
-						<p>
-							123 NW Everett Street<br>
-							Portland, OR 97209
-						</p>
-					</div>
-
-					<div class="phone">
-						<a href="tel:5035555555">(503) 555-5555</a>
-					</div>
-
-					<div class="social">
-						<ul class="horizontal">
-							<li class="facebook">
-								<a href="http://www.facebook.com" title="Facebook">
-									<span class="screen-reader-text">Follow Us on Facebook</span>
-								</a>
-							</li>
-							<li class="twitter">
-								<a href="http://www.twitter.com" title="Twitter">
-									<span class="screen-reader-text">Follow Us on Twitter</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="one-third footernav">
-					<h4>Quick Links</h4>
-
-					<nav aria-label="footer">
-						<ul>
-							<li>
-								<a href="#"><span>Home</span></a>
-							</li>
-							<li>
-								<a href="#"><span>Athletes</span></a>
-							</li>
-							<li>
-								<a href="#"><span>Volunteers</span></a>
-							</li>
-							<li>
-								<a href="#"><span>About</span></a>
-							</li>
-							<li>
-								<a href="#"><span>Gallery</span></a>
-							</li>
-							<li>
-								<a href="#"><span>Contact</span></a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-
-				<div class="one-third map">
-					<h4>Event Location</h4>
-
-					<div class="google-map"></div>
-				</div>
-			</div>
-
-			<div class="credits">
-				<p>
-					Copyright &copy; <span id="year">2020</span> Ace in the Hole <br><span>|</span> Website by
-					<a href="http://www.alexisvillegas.com/">AJV</a>
-				</p>
-			</div>
-		</footer>
+		<?php require 'includes/footer.php'; ?>
 
 		<button title="Back to Top" class="to-top">
 			<span class="screen-reader-text">Back to top</span>
