@@ -22,7 +22,7 @@
 		<header class="site-header">
 			<div class="wrap">
 				<div class="site-logo">
-					<a href="index.html">
+					<a href="index.php">
 						<img src="assets/images/logo.svg" alt="Ace in the Hole Logo" />
 						<p class="screen-reader-text">Ace in the Hole</p>
 					</a>
