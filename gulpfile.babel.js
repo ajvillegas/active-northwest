@@ -215,6 +215,7 @@ gulp.task( 'customJS', () => {
 			'./assets/js/custom/scroll.js',
 			'./assets/js/custom/responsive-menu.js',
 			'./assets/js/custom/header-offset.js',
+			'./assets/js/custom/hero-image.js',
 			'./assets/js/custom/google-map.js',
 			'./assets/js/custom/current-year.js'
 		], { since: gulp.lastRun( 'customJS' ) }) // Only run on changed files.
