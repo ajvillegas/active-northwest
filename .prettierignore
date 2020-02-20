@@ -1,0 +1,7 @@
+# Minified Files #
+*.min.css
+*.min.js
+
+# Main Stylesheet #
+# We are using Gulp to format this stylsheet for distribution.
+style.css

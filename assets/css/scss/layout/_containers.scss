@@ -1,0 +1,40 @@
+/* ## Site Structure
+--------------------------------------------- */
+
+.site-inner,
+.wrap {
+	margin: 0 auto;
+}
+
+.site-inner {
+	max-width: 100%;
+	padding: $base-spacing * 4.5 0 $base-spacing;
+
+	@include media(medium) {
+		padding: $base-spacing * 5 0 $base-spacing;
+	}
+}
+
+.wrap {
+	padding: 0 $small-spacing;
+
+	@include media(large) {
+		max-width: $max-width;
+		padding: 0;
+	}
+}
+
+.site-inner > section > .wrap {
+	@media only screen and (min-width: 790px) {
+		max-width: 750px;
+		padding: 0;
+	}
+}
+
+/* ## Float Clearing
+--------------------------------------------- */
+
+.wrap,
+.clearfix {
+	@include clearfix;
+}

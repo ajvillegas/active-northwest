@@ -1,0 +1,111 @@
+/* ## Forms
+--------------------------------------------- */
+
+fieldset {
+	background-color: lighten($base-border-color, 10%);
+	border: $base-border;
+	margin: 0 0 $small-spacing;
+	padding: $base-spacing;
+}
+
+label,
+input,
+select {
+	font-family: $heading-font-family;
+	font-size: $base-font-size;
+}
+
+input,
+select {
+	display: block;
+}
+
+label {
+	display: inline-block;
+	font-weight: 600;
+	margin-bottom: $small-spacing / 2;
+}
+
+#{$all-text-inputs},
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: $base-background-color;
+	border: 1px solid darken($base-border-color, 15%);
+	box-sizing: border-box;
+	font-family: $base-font-family;
+	font-size: $base-font-size / 1.25;
+	margin-bottom: $base-spacing / 2;
+	padding: $base-spacing / 3;
+	width: 100%;
+	height: 48px;
+	line-height: $base-line-height;
+	vertical-align: middle;
+}
+
+textarea {
+	resize: vertical;
+	height: auto;
+}
+
+input[type='text'] {
+	&::-webkit-input-placeholder {
+		color: $medium-gray;
+	}
+
+	&::-moz-placeholder {
+		color: $medium-gray;
+	}
+
+	&:-ms-input-placeholder {
+		color: $medium-gray;
+	}
+}
+
+select {
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><rect x='0' fill='none' width='20' height='20'/><g><path d='M5 6l5 5 5-5 2 1-7 7-7-7z'/></g></svg>");
+	background-position: right 8px top 55%;
+	background-repeat: no-repeat;
+	background-size: auto 30%;
+	padding-right: 2.5rem;
+	margin-bottom: $base-spacing;
+	border-radius: $base-border-radius;
+	width: auto;
+
+	// Internet Explorer 10/11.
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+		background-image: none;
+		padding-right: $base-spacing / 3;
+	}
+}
+
+.required {
+	color: #c3251d;
+	padding-left: 2px;
+}
+
+.radio,
+.checkbox {
+	display: block;
+
+	label {
+		display: inline;
+		font-weight: 400;
+	}
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+	display: inline;
+	margin-right: $small-spacing / 2;
+	position: relative;
+	bottom: 2px; // Move buttons up 2 pixels.
+}
+
+input[type='file'] {
+	padding-bottom: $small-spacing;
+	width: 100%;
+	line-height: 1;
+	font-size: 1.6rem;
+}

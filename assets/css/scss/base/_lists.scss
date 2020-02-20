@@ -1,0 +1,38 @@
+/* ## Lists
+--------------------------------------------- */
+
+ul,
+ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.default-ul {
+	@include default-ul;
+}
+
+ol.default-ol {
+	@include default-ol;
+}
+
+ul,
+ol {
+	&.horizontal {
+		@include horizontal;
+	}
+}
+
+dl {
+	margin-bottom: $base-spacing;
+
+	dt {
+		font-weight: bold;
+		margin-top: $small-spacing;
+	}
+
+	dd {
+		margin: 0 0 0 $small-spacing;
+		font-style: italic;
+	}
+}

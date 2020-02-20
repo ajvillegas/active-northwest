@@ -1,0 +1,219 @@
+/* ## Navigation Menu
+--------------------------------------------- */
+
+%nav-wrapper {
+	position: relative;
+	@extend .wrap;
+}
+
+.nav-menu {
+	clear: both;
+
+	@include media(medium) {
+		float: right;
+		clear: none;
+		text-align: right;
+		margin-top: 1.1rem;
+	}
+
+	ul.is-active {
+		display: block !important;
+		padding-top: 2rem;
+
+		@include media(medium) {
+			padding-top: 0;
+		}
+	}
+
+	li {
+		font-family: $base-font-family;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.1rem;
+
+		@include media(medium) {
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+
+	a {
+		color: #fff;
+		display: block;
+		padding: 1rem 0.5rem;
+		text-decoration: none;
+
+		@include media(medium) {
+			padding: 0 1.2rem;
+		}
+	}
+}
+
+.nav-menu .menutoggle {
+	position: absolute;
+	right: 2rem;
+	top: 30px;
+	border: none;
+	background-color: transparent;
+	padding: 0;
+	width: 26px;
+	height: 18px;
+	display: none;
+
+	&:focus {
+		box-shadow: 0 0 0 1px $light-gray;
+	}
+
+	@include media(medium) {
+		display: none;
+	}
+}
+
+.nav-menu .menutoggle .navicon {
+	// Center line of hamburger icon.
+	position: relative;
+	display: block;
+	background: #f5f5f5;
+	width: 26px;
+	height: 3px;
+	transition: background 0.2s ease-in-out;
+
+	// Top and bottom lines of hamburger icon.
+	&::before,
+	&::after {
+		position: absolute;
+		content: '';
+		display: block;
+		background: #f5f5f5;
+		width: 100%;
+		height: 100%;
+		transition: all 0.2s ease-in-out;
+	}
+
+	&::before {
+		top: 8px;
+	}
+
+	&::after {
+		top: -8px;
+	}
+}
+
+.nav-menu .menutoggle[aria-expanded='true'] .navicon {
+	// Center line of hamburger icon.
+	background: transparent;
+
+	// Top and bottom lines of hamburger icon.
+	&::before,
+	&::after {
+		top: 0;
+	}
+
+	&::before {
+		transform: rotate(-45deg);
+	}
+
+	&::after {
+		transform: rotate(45deg);
+	}
+}
+
+.nav-menu li.submenu {
+	position: relative;
+
+	.submenutoggle::after {
+		content: '';
+		display: inline-block;
+		margin-left: 0.255em;
+		vertical-align: 0.155em;
+		border-top: 0.3em solid;
+		border-right: 0.3em solid transparent;
+		border-bottom: 0;
+		border-left: 0.3em solid transparent;
+	}
+
+	.submenutoggle[aria-expanded='true']::after {
+		border-top: 0;
+		border-bottom: 0.3em solid;
+	}
+
+	ul {
+		padding: 0.5rem 0;
+
+		@include media(medium) {
+			position: absolute;
+			padding: 1rem 0;
+			background-color: #fff;
+			margin: 0.5rem 0 0;
+			border: 1px solid #ddd;
+			box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.05);
+			z-index: 1000;
+			top: 25px;
+			left: 0;
+			opacity: 1;
+			width: auto;
+			min-width: 140px;
+		}
+
+		li {
+			@include media(medium) {
+				display: block;
+				text-align: left;
+			}
+		}
+
+		a {
+			//font-weight: 400;
+			text-transform: capitalize;
+			letter-spacing: normal;
+			font-size: 15px;
+			margin-left: 2rem;
+
+			@include media(medium) {
+				display: block;
+				color: lighten($dark-gray, 10%);
+				padding: 0.5rem 1.2rem;
+				margin-left: 0;
+
+				&:hover,
+				&:focus {
+					outline: none;
+					box-shadow: none;
+					border-radius: 0;
+					background-color: darken(#f8f9fa, 10%);
+				}
+			}
+		}
+	}
+}
+
+.js .nav-menu ul {
+	display: none;
+
+	@include media(medium) {
+		display: block;
+	}
+}
+
+.js .nav-menu .menutoggle {
+	display: block;
+
+	@include media(medium) {
+		display: none;
+	}
+}
+
+.js .nav-menu li.submenu ul {
+	@include media(medium) {
+		left: -9999px;
+		opacity: 0;
+	}
+
+	&.is-active {
+		@include media(medium) {
+			left: 0;
+			opacity: 1;
+		}
+	}
+}
