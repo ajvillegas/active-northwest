@@ -55,7 +55,6 @@
 						</li>
 					</ul>
 				</div>
-
 				<div class="date"><span>Event Date:</span> March 28-29, 2020</div>
 			</div>
 		</div>
@@ -70,13 +69,13 @@
 				</div>
 
 				<nav id="navigation" class="nav-menu" aria-label="primary">
-					<button class="menutoggle" aria-haspopup="true" aria-expanded="false" data-menu-id="primary">
+					<button class="menutoggle" aria-haspopup="true" aria-expanded="false" data-menu-id="primary-menu">
 						<span class="navicon"></span>
 						<span class="screen-reader-text">Menu</span>
 					</button>
 
-					<ul id="primary">
-						<li>
+					<ul id="primary-menu">
+						<li class="currentpage">
 							<a href="#" class="navlink"><span>Home</span></a>
 						</li>
 						<li>
@@ -87,10 +86,10 @@
 
 							<ul id="register">
 								<li>
-									<a href="#" class="navlink"><span>Athletes</span></a>
+									<a href="#" class="navlink">Athletes</a>
 								</li>
 								<li>
-									<a href="#" class="navlink"><span>Volunteers</span></a>
+									<a href="#" class="navlink">Volunteers</a>
 								</li>
 							</ul>
 						</li>
@@ -106,10 +105,15 @@
 		</header>
 
 		<main class="site-inner">
+			<section class="hero-image">
+				<div class="wrap">
+					<h1 class="heading">Large Page Title</h1>
+					<p class="subheading">Smaller Descriptive Subheading</p>
+				</div>
+			</section>
+
 			<section id="typography">
 				<div class="wrap">
-					<h2>Typography</h2>
-
 					<p class="lead-text">At sight of these strange, swift, and terrible creatures the crowd near the water's edge seemed to me to be for a moment horror-struck. There was no screaming or shouting, but a silence.</p>
 
 					<p>Then a hoarse murmur and a movement of feet - a splashing from the water. A man, too frightened to drop the portmanteau he carried on his shoulder, swung round and sent me staggering with a blow from the corner of his burden. A woman thrust at me with her hand and rushed past me. I turned with the rush of the people, but I was not too terrified for thought. The terrible Heat-Ray was in my mind. To get under water! That was it!</p>
@@ -420,21 +424,21 @@ var tomorrow = function tomorrow() {
 							<div class="color -primary">
 								<div class="info">
 									<span class="heading">Primary</span>
-									<span class="value">HEX: #4173bb</span>
+									<span class="value">HEX: #fb2740</span>
 								</div>
 							</div>
 
 							<div class="color -secondary">
 								<div class="info">
 									<span class="heading">Secondary</span>
-									<span class="value">HEX: #333333</span>
+									<span class="value">HEX: #17191d</span>
 								</div>
 							</div>
 
 							<div class="color -tertiary">
 								<div class="info">
 									<span class="heading">Tertiary</span>
-									<span class="value">HEX: #34b79d</span>
+									<span class="value">HEX: #04d8bf</span>
 								</div>
 							</div>
 
@@ -492,28 +496,28 @@ var tomorrow = function tomorrow() {
 							<div class="color -darkgray">
 								<div class="info">
 									<span class="heading">Dark Gray</span>
-									<span class="value">HEX: #333333</span>
+									<span class="value">HEX: #272a2f</span>
 								</div>
 							</div>
 
 							<div class="color -mediumgray">
 								<div class="info">
 									<span class="heading">Medium Gray</span>
-									<span class="value">HEX: #767676</span>
+									<span class="value">HEX: #474d57</span>
 								</div>
 							</div>
 
 							<div class="color -lightgray">
 								<div class="info">
 									<span class="heading">Light Gray</span>
-									<span class="value">HEX: #dddddd</span>
+									<span class="value">HEX: #d8d8d8</span>
 								</div>
 							</div>
 
 							<div class="color -verylightgray">
 								<div class="info">
 									<span class="heading">Very Light Gray</span>
-									<span class="value">HEX: #f9f9f9</span>
+									<span class="value">HEX: #f7f6f6</span>
 								</div>
 							</div>
 						</div>
@@ -557,10 +561,77 @@ var tomorrow = function tomorrow() {
 		</main>
 
 		<footer id="footer" class="site-footer">
-			<p>
-				Copyright &copy; <span id="year">2020</span> Ace in the Hole <br><span>|</span> Website by
-				<a href="http://www.alexisvillegas.com/">AJV</a>
-			</p>
+			<div class="widgets wrap">
+				<div class="first one-third contact">
+					<h4>Contact Us</h4>
+
+					<div class="address">
+						<p>
+							123 NW Everett Street<br>
+							Portland, OR 97209
+						</p>
+					</div>
+
+					<div class="phone">
+						<a href="tel:5035555555">(503) 555-5555</a>
+					</div>
+
+					<div class="social">
+						<ul class="horizontal">
+							<li class="facebook">
+								<a href="http://www.facebook.com" title="Facebook">
+									<span class="screen-reader-text">Follow Us on Facebook</span>
+								</a>
+							</li>
+							<li class="twitter">
+								<a href="http://www.twitter.com" title="Twitter">
+									<span class="screen-reader-text">Follow Us on Twitter</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="one-third footernav">
+					<h4>Quick Links</h4>
+
+					<nav aria-label="footer">
+						<ul>
+							<li>
+								<a href="#"><span>Home</span></a>
+							</li>
+							<li>
+								<a href="#"><span>Athletes</span></a>
+							</li>
+							<li>
+								<a href="#"><span>Volunteers</span></a>
+							</li>
+							<li>
+								<a href="#"><span>About</span></a>
+							</li>
+							<li>
+								<a href="#"><span>Gallery</span></a>
+							</li>
+							<li>
+								<a href="#"><span>Contact</span></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="one-third map">
+					<h4>Event Location</h4>
+
+					<div class="google-map"></div>
+				</div>
+			</div>
+
+			<div class="credits">
+				<p>
+					Copyright &copy; <span id="year">2020</span> Ace in the Hole <br><span>|</span> Website by
+					<a href="http://www.alexisvillegas.com/">AJV</a>
+				</p>
+			</div>
 		</footer>
 
 		<button title="Back to Top" class="to-top">
@@ -568,6 +639,7 @@ var tomorrow = function tomorrow() {
 			<span class="arrow-up"></span>
 		</button>
 
+		<script src="//maps.google.com/maps/api/js?key=AIzaSyDZXlksw2XKFvmh3i3Zw7NDzjfgir9N8DI"></script>
 		<script src="assets/js/custom.min.js"></script>
 	</body>
 
