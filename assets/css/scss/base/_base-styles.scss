@@ -158,6 +158,11 @@ q {
 a {
 	color: $primary-color;
 	text-decoration: underline;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
 }
 
 a[href^='tel'],

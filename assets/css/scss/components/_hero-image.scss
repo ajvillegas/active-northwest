@@ -1,0 +1,46 @@
+/* ## Hero Image
+--------------------------------------------- */
+
+.hero-image {
+	background: $light-gray url(../images/hero-image.jpg) no-repeat center fixed;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8rem 0;
+	position: relative;
+	margin-bottom: $base-spacing * 2.5;
+
+	@media only screen and (min-width: 480px) {
+		min-height: 500px;
+		padding: 0;
+	}
+
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+	}
+
+	.wrap {
+		padding: 0 4rem;
+		text-align: center;
+		color: #fff;
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+		z-index: 1;
+	}
+
+	.heading {
+		margin-bottom: $small-spacing;
+		font-size: 4.6rem;
+
+		@include media(medium) {
+			font-size: 5.2rem;
+		}
+	}
+}

@@ -12,16 +12,21 @@
 
 	a {
 		display: block;
-		height: 25px;
-		width: 25px;
+		width: 20px;
+		height: 20px;
+
+		@include media(x-small) {
+			width: 25px;
+			height: 25px;
+		}
 	}
 
 	.facebook a {
-		background: url(../images/icons/facebook.svg) no-repeat center left;
+		background: url(../images/icon/facebook.svg) no-repeat center;
 	}
 
 	.twitter a {
-		background: url(../images/icons/twitter.svg) no-repeat center left;
+		background: url(../images/icon/twitter.svg) no-repeat center;
 	}
 }
 

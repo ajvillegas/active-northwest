@@ -1,0 +1,62 @@
+/* ## Weather Widget
+--------------------------------------------- */
+
+.weather-widget {
+	background-color: $medium-gray;
+	display: none;
+
+	&.is-active {
+		display: block;
+	}
+}
+
+.weathertoggle {
+	position: absolute;
+	right: 8rem;
+	top: 23px;
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	width: 27px;
+	height: 24px;
+
+	&:hover,
+	&:focus {
+		background-color: transparent;
+		border: none;
+		box-shadow: none;
+		top: 23px;
+	}
+
+	@include media(x-small) {
+		top: 27px;
+
+		&:hover,
+		&:focus {
+			top: 27px;
+		}
+	}
+
+	> .weathericon {
+		background: url(../images/icon/cloud-sun-rain.svg) no-repeat center;
+		display: block;
+		width: 27px;
+		height: 24px;
+	}
+}
+
+/* <div class="weather-widget">
+	<div class="wrap">
+		<button class="weathertoggle" aria-haspopup="true" aria-expanded="false" data-weather-id="weather">
+			<span class="weathericon"></span>
+			<span class="screen-reader-text">Portland, Oregon Weather Widget</span>
+		</button>
+
+		<div id="weather">
+			<a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/?unit=us" data-label_1="PORTLAND" data-label_2="WEATHER" data-theme="gray" data-basecolor="#474d57" data-suncolor="#fc596c">Portland, OR Weather</a>
+			<script>
+				!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+			</script>
+		</div>
+	</div>
+</div> */

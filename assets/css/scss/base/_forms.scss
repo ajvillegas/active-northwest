@@ -109,3 +109,11 @@ input[type='file'] {
 	line-height: 1;
 	font-size: 1.6rem;
 }
+
+input:not([type='submit']),
+select,
+textarea {
+	&:focus {
+		box-shadow: 0 0 0 2px rgba($medium-gray, 0.5);
+	}
+}

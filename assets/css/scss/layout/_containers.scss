@@ -1,18 +1,15 @@
 /* ## Site Structure
 --------------------------------------------- */
 
-.site-inner,
+// main.site-inner
+main,
 .wrap {
 	margin: 0 auto;
 }
 
-.site-inner {
+main {
 	max-width: 100%;
-	padding: $base-spacing * 2.5 0 $base-spacing;
-
-	/* @include media(medium) {
-		padding: $base-spacing * 2 0 $base-spacing;
-	} */
+	padding: 0 0 $base-spacing;
 }
 
 .wrap {
@@ -24,7 +21,7 @@
 	}
 }
 
-.site-inner > section > .wrap {
+main > section > .wrap {
 	@media only screen and (min-width: 790px) {
 		max-width: 750px;
 		padding: 0;
