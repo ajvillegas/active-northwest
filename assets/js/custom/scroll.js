@@ -1,7 +1,7 @@
 /**
  * The scrolling functionality of the website.
  *
- * @package    Nucleo
+ * @package    AceInTheHole
  * @author     Alexis J. Villegas
  * @link       http://www.alexisvillegas.com
  * @license    GPL-2.0+
@@ -9,10 +9,8 @@
 
 ( function() {
 
-	// Display Back to Top button and toggle header class when the user scrolls.
+	// Display Back to Top button when the user scrolls.
 	document.addEventListener( 'scroll', function() {
-		const siteHeader = document.querySelector( '.site-header' );
-		const menu = document.querySelector( '#primary-menu' );
 		const topButton = document.querySelector( '.to-top' );
 
 		// Check if user scrolls past 100px from the top of the document.
@@ -20,20 +18,10 @@
 
 			// Display scroll button.
 			topButton.style.display = 'block';
-
-			// Add .is-active class to header.
-			siteHeader.classList.add( 'is-active' );
 		} else {
 
 			// Hide scroll button.
 			topButton.style.display = 'none';
-
-			// Toggle .is-active header class.
-			if ( menu.classList.contains( 'is-active' ) ) {
-				siteHeader.classList.add( 'is-active' );
-			} else {
-				siteHeader.classList.remove( 'is-active' );
-			}
 		}
 	}, false );
 

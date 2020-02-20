@@ -1,7 +1,7 @@
 /**
  * Calculate the current year and update it in the footer.
  *
- * @package    Nucleo
+ * @package    AceInTheHole
  * @author     Alexis J. Villegas
  * @link       http://www.alexisvillegas.com
  * @license    GPL-2.0+

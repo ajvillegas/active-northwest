@@ -1,7 +1,7 @@
 /**
  * Helps with accessibility for keyboard only users.
  *
- * @package    Nucleo
+ * @package    AceInTheHole
  * @author     Automattic
  * @link	   https://git.io/vWdr2
  * @license    GPL-2.0+

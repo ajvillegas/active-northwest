@@ -1,7 +1,7 @@
 /**
  * The mobile responsive menu functionality of the website.
  *
- * @package    Nucleo
+ * @package    AceInTheHole
  * @author     Alexis J. Villegas
  * @link       http://www.alexisvillegas.com
  * @license    GPL-2.0+

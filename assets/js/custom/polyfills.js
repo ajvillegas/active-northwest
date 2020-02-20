@@ -1,7 +1,7 @@
 /**
  * Add support for modern functionality on older browsers that do not natively support it.
  *
- * @package    Nucleo
+ * @package    AceInTheHole
  * @author     Alexis J. Villegas
  * @link       http://www.alexisvillegas.com
  * @license    GPL-2.0+
