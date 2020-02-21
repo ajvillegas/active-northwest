@@ -10,7 +10,7 @@
 		<title>Ace in the Hole Multisport Event</title>
 
 		<link rel="shortcut icon" href="assets/images/favicon.png">
-		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:700|Source+Sans+Pro:400,600,700&display=swap">
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:700%7CSource+Sans+Pro:400,600,700&display=swap">
 		<link rel="stylesheet" href="assets/css/style.css">
 	</head>
 
