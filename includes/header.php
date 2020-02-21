@@ -57,7 +57,7 @@
 							<a href="#" class="navlink"><span>Gallery</span></a>
 						</li>
 						<li>
-							<a href="#" class="navlink"><span>Colors</span></a>
+							<a href="#" class="navlink"><span>Contact</span></a>
 						</li>
 					</ul>
 				</nav>
