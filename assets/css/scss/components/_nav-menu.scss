@@ -6,7 +6,7 @@
 	@extend .wrap;
 }
 
-.nav-menu {
+nav.nav-menu {
 	clear: both;
 
 	@include media(medium) {
@@ -114,7 +114,7 @@
 	}
 }
 
-.nav-menu .menutoggle {
+nav.nav-menu .menutoggle {
 	position: absolute;
 	right: 2rem;
 	top: 27px;
@@ -138,7 +138,7 @@
 	}
 }
 
-.nav-menu .menutoggle .navicon {
+nav.nav-menu .menutoggle .navicon {
 	// Center line of hamburger icon.
 	position: relative;
 	display: block;
@@ -168,7 +168,7 @@
 	}
 }
 
-.nav-menu .menutoggle[aria-expanded='true'] .navicon {
+nav.nav-menu .menutoggle[aria-expanded='true'] .navicon {
 	// Center line of hamburger icon.
 	background: transparent;
 
@@ -187,7 +187,7 @@
 	}
 }
 
-.nav-menu li.submenu {
+nav.nav-menu li.submenu {
 	position: relative;
 
 	.submenutoggle::after {
@@ -256,7 +256,7 @@
 	}
 }
 
-.js .nav-menu ul {
+.js nav.nav-menu ul {
 	display: none;
 
 	@include media(medium) {
@@ -264,7 +264,7 @@
 	}
 }
 
-.js .nav-menu .menutoggle {
+.js nav.nav-menu .menutoggle {
 	display: block;
 
 	@include media(medium) {
@@ -272,7 +272,7 @@
 	}
 }
 
-.js .nav-menu li.submenu ul {
+.js nav.nav-menu li.submenu ul {
 	@include media(medium) {
 		left: -9999px;
 		opacity: 0;
