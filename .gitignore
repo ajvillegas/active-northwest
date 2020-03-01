@@ -63,3 +63,4 @@ assets/img/.DS_Store
 
 # Specific Files #
 contact.php
+/includes/constants.php
