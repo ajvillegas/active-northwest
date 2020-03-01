@@ -1,3 +1,4 @@
+<?php // phpcs:disable Generic.Files.LineLength ?>
 
         <footer id="footer" class="site-footer">
             <div class="widgets wrap">
@@ -12,7 +13,7 @@
                     </div>
 
                     <div class="phone">
-                        <a href="tel:5035555555">(503) 555-5555</a>
+                        <a href="tel:9715552484">(971) 555-AITH</a>
                     </div>
 
                     <div class="social">
@@ -37,22 +38,22 @@
                     <nav aria-label="footer">
                         <ul>
                             <li>
-                                <a href="#"><span>Home</span></a>
+                                <a href="index.php"><span>Home</span></a>
                             </li>
                             <li>
-                                <a href="#"><span>Athletes</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Volunteers</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>About</span></a>
+                                <a href="register.php"><span>Register</span></a>
                             </li>
                             <li>
                                 <a href="#"><span>Gallery</span></a>
                             </li>
                             <li>
-                                <a href="#"><span>Contact</span></a>
+                                <a href="#"><span>About</span></a>
+                            </li>
+                            <li>
+                                <a href="volunteer.php"><span>Volunteer</span></a>
+                            </li>
+                            <li>
+                                <a href="contact.php"><span>Contact</span></a>
                             </li>
                         </ul>
                     </nav>
@@ -72,3 +73,11 @@
                 </p>
             </div>
         </footer>
+
+        <button title="Back to Top" class="to-top">
+            <span class="screen-reader-text">Back to top</span>
+            <span class="arrow-up"></span>
+        </button>
+
+        <script src="//maps.google.com/maps/api/js?key=AIzaSyDZXlksw2XKFvmh3i3Zw7NDzjfgir9N8DI"></script>
+        <script src="assets/js/custom.min.js"></script>

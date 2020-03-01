@@ -1,3 +1,4 @@
+<?php // phpcs:disable Generic.Files.LineLength ?>
 
         <div class="utility-bar">
             <div class="wrap">
@@ -35,29 +36,23 @@
                     </button>
 
                     <ul id="primary-menu">
-                        <li class="currentpage">
-                            <a href="#" class="navlink"><span>Home</span></a>
+                        <li>
+                            <a href="index.php" class="navlink"><span>Home</span></a>
                         </li>
                         <li>
                             <a href="#" class="navlink"><span>About</span></a>
                         </li>
-                        <li class="submenu">
-                            <a href="#" class="submenutoggle" role="button" aria-haspopup="true" aria-expanded="false" data-submenu-id="register"><span>Register</span></a>
-
-                            <ul id="register">
-                                <li>
-                                    <a href="#" class="navlink">Athletes</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="navlink">Volunteers</a>
-                                </li>
-                            </ul>
+                        <li>
+                            <a href="register.php" class="navlink"><span>Register</span></a>
+                        </li>
+                        <li>
+                            <a href="volunteer.php" class="navlink"><span>Volunteer</span></a>
                         </li>
                         <li>
                             <a href="#" class="navlink"><span>Gallery</span></a>
                         </li>
                         <li>
-                            <a href="#" class="navlink"><span>Contact</span></a>
+                            <a href="contact.php" class="navlink"><span>Contact</span></a>
                         </li>
                     </ul>
                 </nav>
