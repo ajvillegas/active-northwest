@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Ace in The Hole Multisport Events offers running and triathlon events to athletes of all shapes and sizes, nationality, gender and cultural backgrounds.">
+        <meta name="description" content="Ace in the Hole Multisport Events offers running and triathlon events to athletes of all shapes and sizes, nationality, gender and cultural backgrounds.">
 
         <title>Ace in the Hole Multisport Event</title>
 
@@ -39,7 +39,6 @@
                 <a class="screen-reader-text" href="#footer">Skip to footer</a>
             </li>
         </ul>
-
         <?php require 'includes/header.php'; ?>
 
         <main class="site-inner">
@@ -335,7 +334,7 @@ var tomorrow = function tomorrow() {
                             <td>Division 2</td>
                             <td>Division 3</td>
                         </tr>
-                        <tr class="even">
+                        <tr>
                             <td>Division 1</td>
                             <td>Division 2</td>
                             <td>Division 3</td>
@@ -497,16 +496,7 @@ var tomorrow = function tomorrow() {
                 </div>
             </section>
         </main>
-
         <?php require 'includes/footer.php'; ?>
-
-        <button title="Back to Top" class="to-top">
-            <span class="screen-reader-text">Back to top</span>
-            <span class="arrow-up"></span>
-        </button>
-
-        <script src="//maps.google.com/maps/api/js?key=AIzaSyDZXlksw2XKFvmh3i3Zw7NDzjfgir9N8DI"></script>
-        <script src="assets/js/custom.min.js"></script>
     </body>
 
 </html>
