@@ -2,6 +2,9 @@
 /**
  * This file defines the PHP constants.
  *
+ * Rename to constants.php to use in this context, and update
+ * each constant value.
+ *
  * @package    AceInTheHole
  * @author     Alexis J. Villegas
  * @link       http://www.alexisvillegas.com
