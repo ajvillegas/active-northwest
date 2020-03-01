@@ -28,11 +28,16 @@
 	}
 
 	.wrap {
+		max-width: $max-width;
 		padding: 0 4rem;
 		text-align: center;
 		color: #fff;
 		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 		z-index: 1;
+
+		> *:last-child {
+			margin-bottom: 0;
+		}
 	}
 
 	.heading {
@@ -43,4 +48,12 @@
 			font-size: 5.2rem;
 		}
 	}
+}
+
+.hero-image.-register {
+	background: $light-gray url(../images/hero-register.jpg) no-repeat center top fixed;
+}
+
+.hero-image.-volunteer {
+	background: $light-gray url(../images/hero-volunteer.jpg) no-repeat center fixed;
 }

@@ -9,7 +9,6 @@ main,
 
 main {
 	max-width: 100%;
-	padding: 0 0 $base-spacing;
 }
 
 .wrap {
@@ -26,6 +25,10 @@ main > section > .wrap {
 		max-width: 750px;
 		padding: 0;
 	}
+}
+
+main > *:last-child {
+	margin-bottom: $base-spacing * 2;
 }
 
 /* ## Float Clearing

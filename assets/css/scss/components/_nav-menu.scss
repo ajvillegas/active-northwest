@@ -71,7 +71,7 @@ nav.nav-menu {
 
 	a:hover > span:after,
 	a:focus > span:after,
-	li.currentpage > a > span:after {
+	a.currentpage > span:after {
 		width: 100%;
 		background-color: $primary-color;
 	}
@@ -86,11 +86,11 @@ nav.nav-menu {
 		}
 	}
 
-	li.currentpage > a:focus > span:after {
+	a.currentpage:focus > span:after {
 		background-color: lighten($primary-color, 30%);
 	}
 
-	li.currentpage > a {
+	a.currentpage {
 		color: lighten($primary-color, 10%);
 
 		@include media(medium) {
@@ -98,8 +98,8 @@ nav.nav-menu {
 		}
 	}
 
-	li.currentpage > a:hover,
-	li.currentpage > a:focus {
+	a.currentpage:hover,
+	a.currentpage:focus {
 		color: lighten($primary-color, 30%);
 
 		@include media(medium) {

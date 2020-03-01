@@ -52,7 +52,8 @@ h6 {
 	font-weight: 700;
 }
 
-h1 {
+h1,
+h2 {
 	margin: 0 0 $base-spacing;
 }
 
@@ -77,6 +78,10 @@ p {
 
 p.lead-text {
 	font-size: $base-font-size * 1.2;
+}
+
+p.error {
+	text-align: center;
 }
 
 code,

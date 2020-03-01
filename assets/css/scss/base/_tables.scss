@@ -7,6 +7,10 @@ table {
 	table-layout: fixed;
 	width: 100%;
 	word-break: break-word;
+
+	strong {
+		font-weight: 600;
+	}
 }
 
 td,
@@ -20,7 +24,7 @@ td {
 }
 
 th {
-	font-weight: 600;
+	font-weight: 700;
 	padding: 0 $small-spacing / 2;
 }
 
@@ -33,4 +37,17 @@ tr,
 td,
 th {
 	vertical-align: middle;
+}
+
+.table-wrap {
+	overflow-x: scroll;
+	margin-bottom: $base-spacing;
+}
+
+.min-500 {
+	width: 500px;
+
+	@media only screen and (min-width: 540px) {
+		width: 100%;
+	}
 }
