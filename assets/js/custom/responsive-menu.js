@@ -22,8 +22,8 @@
 		toggle.setAttribute( 'aria-expanded', 'false' );
 		nav.classList.remove( 'is-active' );
 
-		// Check if header parameter is provided, if we're at the top and on #primary-menu.
-		if ( undefined !== header && 0 === window.pageYOffset && 'primary-menu' === nav.id ) {
+		// Check if header parameter is provided and on #primary-menu.
+		if ( undefined !== header && 'primary-menu' === nav.id ) {
 			header.classList.remove( 'is-active' );
 		}
 	};
