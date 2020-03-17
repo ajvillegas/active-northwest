@@ -44,6 +44,12 @@
             </section>
         </main>
         <?php require 'includes/footer.php'; ?>
+        <script>
+            // Remove $_POST parameters from URL.
+            ( function() {
+                window.history.replaceState({}, document.title, '/cas222/project/<?php echo basename($_SERVER['PHP_SELF']); ?>' );
+            }() );
+        </script>
     </body>
 
 </html>
