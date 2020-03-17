@@ -117,7 +117,7 @@
 
                             <p>Plese fill out the form below to register for an event. Fields marked with an asterisk (<span class="required">*</span>) are required.</p>
 
-                            <input type="hidden" name="honeypot" id="honeypot" value="" alt="If you fill this field out your form will not be submitted.">
+                            <input type="hidden" name="honeypot" id="honeypot" value="">
 
                             <div class="clearfix">
                                 <p class="first one-half">
