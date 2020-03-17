@@ -37,6 +37,9 @@
     "gulp-sourcemaps": "^2.6.2",
     "gulp-uglify": "^3.0.0",
     "gulp-uglifycss": "^1.0.6",
+    "lodash.template": "^4.5.0",
+    "minimist": ">=1.2.2",
+    "tunnel-agent": "^0.6.0",
     "yargs": "^13.3.0"
   },
   "scripts": {
@@ -47,9 +50,5 @@
     "customJS": "gulp customJS",
     "images": "gulp images",
     "clearCache": "gulp clearCache"
-  },
-  "dependencies": {
-    "lodash.template": "^4.5.0",
-    "tunnel-agent": "^0.6.0"
   }
 }
