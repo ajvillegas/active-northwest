@@ -54,7 +54,9 @@ EOT;
         //Send the message, check for errors.
         if (! $mail->send()) {
             // Display error message.
-            echo "Mailer Error:" .  $mail->ErrorInfo;
+            $error = "Mailer Error:" .  $mail->ErrorInfo;
+            include 'includes/error.html.php';
+            exit();
         } else {
             include 'includes/success-contact.html.php';
         }
