@@ -214,6 +214,7 @@ gulp.task( 'customJS', () => {
 			'./assets/js/custom/skip-link-focus.js',
 			'./assets/js/custom/scroll.js',
 			'./assets/js/custom/responsive-menu.js',
+			'./assets/js/custom/weather-widget.js',
 			'./assets/js/custom/current-page.js',
 			'./assets/js/custom/header-offset.js',
 			'./assets/js/custom/hero-image.js',
