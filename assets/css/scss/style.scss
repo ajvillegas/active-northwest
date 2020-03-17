@@ -17,10 +17,11 @@
 /* # Structure and Layout
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'layout/header';
-@import 'layout/footer';
 @import 'layout/containers';
 @import 'layout/columns';
+@import 'layout/header';
+@import 'layout/weather-widget';
+@import 'layout/footer';
 
 /* # Components
 ---------------------------------------------------------------------------------------------------- */
@@ -32,5 +33,8 @@
 @import 'components/content-box';
 @import 'components/text-badge';
 @import 'components/cta-section';
-@import 'components/color-palette';
-// @import 'components/weather-widget';
+@import 'components/image-links';
+@import 'components/contact-details';
+@import 'components/masonry-gallery';
+@import 'components/baguette-box';
+// @import 'components/color-palette';
