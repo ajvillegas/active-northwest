@@ -42,9 +42,38 @@
                     <p class="lead-text">We love to hear from you!</p>
 
                     <p>Please use the form below to get in touch with any questions regarding the event, volunteering opportunities, sponsorships, or any general inquiries you might have.</p>
-                    <hr>
                 </div>
             </section>
+
+            <div class="contact-details">
+                <div class="wrap">
+                    <div class="details first one-third">
+                        <div class="content">
+                            <h2 class="heading"><span>Address</span></h2>
+
+                            <address>
+                                <p>123 NW Everett Street<br>Portland, OR 97209</p>
+                            </address>
+                        </div>
+                    </div>
+
+                    <div class="details one-third">
+                        <div class="content">
+                            <h2 class="heading"><span>Phone</span></h2>
+
+                            <a href="tel:9715552484">(971) 555-AITH</a>
+                        </div>
+                    </div>
+
+                    <div class="details one-third">
+                        <div class="content">
+                            <h2 class="heading"><span>Email</span></h2>
+
+                            <a href="mailto:aith.event@gmail.com">aith.event@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <section>
                 <div class="wrap">
@@ -52,7 +81,7 @@
                         <form method="post" action="">
                             <h3>Contact Form</h3>
 
-                            <input type="hidden" name="honeypot" id="honeypot" value="" alt="If you fill this field out your form will not be submitted.">
+                            <input type="hidden" name="honeypot" id="honeypot" value="">
 
                             <div class="clearfix">
                                 <p class="first one-half">
