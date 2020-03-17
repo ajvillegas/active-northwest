@@ -10,18 +10,21 @@ nav.nav-menu {
 	clear: both;
 
 	@include media(medium) {
-		float: right;
+		float: left;
 		clear: none;
 		text-align: right;
 		margin-top: 0.45rem;
 	}
 
-	ul.is-active {
-		display: block !important;
+	ul {
 		padding-top: 2rem;
 
 		@include media(medium) {
 			padding-top: 0;
+		}
+
+		&.is-active {
+			display: block !important;
 		}
 	}
 

@@ -20,7 +20,7 @@ main {
 	}
 }
 
-main > section > .wrap {
+body:not(.gallery):not(.home) main > section > .wrap {
 	@media only screen and (min-width: 790px) {
 		max-width: 750px;
 		padding: 0;
@@ -29,6 +29,18 @@ main > section > .wrap {
 
 main > *:last-child {
 	margin-bottom: $base-spacing * 2;
+}
+
+.home main > *:last-child {
+	margin-bottom: 0;
+}
+
+.section-padding {
+	padding: $base-spacing * 2.5 0;
+}
+
+section {
+	scroll-margin-top: 100px;
 }
 
 /* ## Float Clearing

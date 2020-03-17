@@ -1,0 +1,59 @@
+/* ## Image Links
+--------------------------------------------- */
+
+.image-links {
+	.imagebox {
+		margin-bottom: 3rem;
+		position: relative;
+		background-color: #000;
+		overflow: hidden;
+		box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+		width: 100%;
+
+		@media only screen and (min-width: 620px) {
+			float: left;
+			margin-left: percentage($column-gutter / $max-width);
+			width: col_width(1, 3, $max-width, $column-gutter);
+			margin-bottom: 0;
+		}
+	}
+
+	.imagebox:nth-child(3n + 1) {
+		margin-left: 0;
+	}
+
+	.imagebox:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.imagebox a,
+	.imagebox a img {
+		display: block;
+	}
+
+	.imagebox img {
+		opacity: 0.5;
+		transition: 0.5s ease-out;
+	}
+
+	.imagebox:hover img,
+	.imagebox:focus img {
+		transform: scale(1.05);
+		opacity: 0.8;
+	}
+
+	.heading {
+		position: absolute;
+		margin: 0;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 0.1rem;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-weight: 400;
+		font-size: 2.2rem;
+		color: #fff;
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	}
+}

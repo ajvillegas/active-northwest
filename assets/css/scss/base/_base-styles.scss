@@ -50,6 +50,11 @@ h6 {
 	line-height: $heading-line-height;
 	margin: 0 0 $small-spacing;
 	font-weight: 700;
+
+	em {
+		font-style: normal;
+		border-bottom: 2px solid $primary-color;
+	}
 }
 
 h1,
@@ -137,6 +142,62 @@ hr {
 	border-right: none;
 	border-top: none;
 	margin: $base-spacing * 1.5 0;
+}
+
+details {
+	margin-bottom: 1rem;
+	background-color: $dark-gray;
+	color: #fff;
+	border-radius: 2px;
+
+	> .answer {
+		padding: 1.5rem;
+	}
+
+	*:last-child {
+		margin-bottom: 0;
+	}
+}
+
+summary {
+	padding: 1rem 4rem 1rem 1.5rem;
+	cursor: pointer;
+	position: relative;
+	font-weight: 600;
+
+	&::before,
+	&::after {
+		width: 0.75em;
+		height: 2px;
+		position: absolute;
+		top: 50%;
+		right: 1.5rem;
+		content: '';
+		background-color: currentColor;
+		text-align: right;
+		transform: translateY(-50%);
+		transition: transform 0.2s ease-in-out;
+	}
+
+	&::after {
+		transform: translateY(-50%) rotate(90deg);
+	}
+
+	&::-webkit-details-marker {
+		display: none;
+	}
+}
+
+details[open] {
+	background-color: $medium-gray;
+
+	&::before {
+		opacity: 0.6;
+	}
+
+	summary::after {
+		transform: translateY(-50%) rotate(180deg);
+	}
 }
 
 blockquote {

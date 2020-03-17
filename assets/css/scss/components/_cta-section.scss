@@ -9,6 +9,10 @@
 	color: #fff;
 	font-size: 2.4rem;
 
+	> .wrap > .heading {
+		margin-bottom: 1.5rem;
+	}
+
 	p {
 		@media only screen and (min-width: 650px) {
 			padding: 0 4rem;
@@ -21,5 +25,9 @@
 
 	&.-bottom {
 		margin-bottom: 0 !important;
+	}
+
+	&.-nomargin {
+		margin: 0 !important;
 	}
 }

@@ -111,7 +111,7 @@ footer .credits {
 	color: $base-font-color;
 	padding: $base-spacing 2rem;
 
-	p:last-of-type {
+	p {
 		margin-bottom: 0;
 	}
 
@@ -128,4 +128,9 @@ footer .credits {
 			display: inline;
 		}
 	}
+}
+
+footer .attribution {
+	font-size: 13px;
+	margin-top: 0.5rem;
 }

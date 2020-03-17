@@ -12,6 +12,7 @@
 	vertical-align: baseline;
 	border-radius: 3px;
 	transition: all 0.15s ease-in-out;
+	-webkit-font-smoothing: subpixel-antialiased;
 
 	&.-primary {
 		background-color: $primary-color;
