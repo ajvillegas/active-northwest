@@ -12,7 +12,3 @@ The website was built with HTML, CSS, PHP and JavaScript. It uses the [Fetch API
 * Local weather widget written in vanilla JavaScript using the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * Registration form that gathers and stores user data in a MySQL database
 * Contact form for emailing administrators through SMTP
-
-## Website Demo
-
-You can view a live demo of the website here: [https://activenw.alexisvillegas.com/](https://activenw.alexisvillegas.com/)
