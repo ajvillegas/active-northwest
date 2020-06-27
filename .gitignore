@@ -62,5 +62,5 @@ assets/img/.DS_Store
 *.code-workspace
 
 # Specific Files #
-contact.php
+contact/index.php
 /includes/constants.php
