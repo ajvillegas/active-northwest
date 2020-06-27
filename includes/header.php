@@ -1,31 +1,35 @@
-<?php // phpcs:disable Generic.Files.LineLength ?>
+<?php
+// phpcs:disable Generic.Files.LineLength
+$base_url = 'https://dev.activenw.com/';
+require 'functions.php';
+?>
 
         <div class="utility-bar">
             <div class="wrap">
                 <div class="social">
                     <ul class="horizontal">
                         <li class="facebook">
-                            <a href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" title="Facebook">
+                            <a href="https://www.facebook.com/" title="Facebook">
                                 <span class="screen-reader-text">Follow Us on Facebook</span>
                             </a>
                         </li>
                         <li class="twitter">
-                            <a href="https://twitter.com/pcccas222" title="Twitter">
+                            <a href="https://twitter.com/" title="Twitter">
                                 <span class="screen-reader-text">Follow Us on Twitter</span>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="date"><span>Event Date:</span> March 28-29, 2020</div>
+                <div class="date"><span>Event Date:</span> March 28-29, 2021</div>
             </div>
         </div>
 
         <header class="site-header">
             <div class="wrap">
                 <div class="site-logo">
-                    <a href="index.php">
-                        <img src="assets/images/logo.svg" alt="Ace in the Hole Logo" />
-                        <p class="screen-reader-text">Ace in the Hole</p>
+                    <a href="/">
+                        <img src="<?php echo $base_url; ?>assets/images/logo.svg" alt="Active Northwest Logo" />
+                        <p class="screen-reader-text">Active Northwest</p>
                     </a>
                 </div>
 
@@ -38,22 +42,34 @@
 
                         <ul id="primary-menu">
                             <li>
-                                <a href="index.php" class="navlink"><span>Home</span></a>
+                                <a href="/" class="navlink<?php current_page('');?>">
+                                    <span>Home</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="about.php" class="navlink"><span>About</span></a>
+                                <a href="<?php echo $base_url; ?>about/" class="navlink<?php current_page('about');?>">
+                                    <span>About</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="register.php" class="navlink"><span>Register</span></a>
+                                <a href="<?php echo $base_url; ?>register/" class="navlink<?php current_page('register');?>">
+                                    <span>Register</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="volunteer.php" class="navlink"><span>Volunteer</span></a>
+                                <a href="<?php echo $base_url; ?>volunteer/" class="navlink<?php current_page('volunteer');?>">
+                                    <span>Volunteer</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="gallery.php" class="navlink"><span>Gallery</span></a>
+                                <a href="<?php echo $base_url; ?>gallery/" class="navlink<?php current_page('gallery');?>">
+                                    <span>Gallery</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="contact.php" class="navlink"><span>Contact</span></a>
+                                <a href="<?php echo $base_url; ?>contact/" class="navlink<?php current_page('contact');?>">
+                                    <span>Contact</span>
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -74,7 +90,7 @@
                                         </h2>
 
                                         <div class="currenticon">
-                                            <img src="assets/images/icon/clear-day.svg" alt="Weather Condition Icon" title="Weather summary.">
+                                            <img src="<?php echo $base_url; ?>assets/images/icon/clear-day.svg" alt="Weather Condition Icon" title="Weather summary.">
                                         </div>
 
                                         <div class="conditions">
@@ -91,7 +107,7 @@
                                             </div>
 
                                             <div class="dayicon">
-                                                <img src="assets/images/icon/clear-day.svg" alt="Weather Condition Icon" title="Weather summary.">
+                                                <img src="<?php echo $base_url; ?>assets/images/icon/clear-day.svg" alt="Weather Condition Icon" title="Weather summary.">
                                             </div>
 
                                             <div class="temps">
@@ -107,7 +123,7 @@
                                             </div>
 
                                             <div class="dayicon">
-                                                <img src="assets/images/icon/rain.svg" alt="Weather Condition Icon" title="Weather summary.">
+                                                <img src="<?php echo $base_url; ?>assets/images/icon/rain.svg" alt="Weather Condition Icon" title="Weather summary.">
                                             </div>
 
                                             <div class="temps">
@@ -123,7 +139,7 @@
                                             </div>
 
                                             <div class="dayicon">
-                                                <img src="assets/images/icon/partly-cloudy-day.svg" alt="Weather Condition Icon" title="Weather summary.">
+                                                <img src="<?php echo $base_url; ?>assets/images/icon/partly-cloudy-day.svg" alt="Weather Condition Icon" title="Weather summary.">
                                             </div>
 
                                             <div class="temps">
@@ -139,7 +155,7 @@
                                             </div>
 
                                             <div class="dayicon">
-                                                <img src="assets/images/icon/partly-cloudy-day.svg" alt="Weather Condition Icon" title="Weather summary.">
+                                                <img src="<?php echo $base_url; ?>assets/images/icon/partly-cloudy-day.svg" alt="Weather Condition Icon" title="Weather summary.">
                                             </div>
 
                                             <div class="temps">
@@ -155,7 +171,7 @@
                                             </div>
 
                                             <div class="dayicon">
-                                                <img src="assets/images/icon/rain.svg" alt="Weather Condition Icon" title="Weather summary.">
+                                                <img src="<?php echo $base_url; ?>assets/images/icon/rain.svg" alt="Weather Condition Icon" title="Weather summary.">
                                             </div>
 
                                             <div class="temps">
@@ -171,7 +187,7 @@
                                             </div>
 
                                             <div class="dayicon">
-                                                <img src="assets/images/icon/clear-day.svg" alt="Weather Condition Icon" title="Weather summary.">
+                                                <img src="<?php echo $base_url; ?>assets/images/icon/clear-day.svg" alt="Weather Condition Icon" title="Weather summary.">
                                             </div>
 
                                             <div class="temps">
@@ -187,7 +203,7 @@
                                             </div>
 
                                             <div class="dayicon">
-                                                <img src="assets/images/icon/partly-cloudy-day.svg" alt="Weather Condition Icon" title="Weather summary.">
+                                                <img src="<?php echo $base_url; ?>assets/images/icon/partly-cloudy-day.svg" alt="Weather Condition Icon" title="Weather summary.">
                                             </div>
 
                                             <div class="temps">
