@@ -6,40 +6,40 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Learn more about Ace in the Hole Multisport Event weekend of 2020 with events for athletes of all shapes, sizes and physical abilities.">
+        <meta name="description" content="Learn more about Active Northwest Multisport Event weekend of 2021 with events for athletes of all shapes, sizes and physical abilities.">
 
-        <title>About | Ace in the Hole Multisport Event</title>
+        <title>About | Active Northwest Multisport Event</title>
 
-        <link rel="shortcut icon" href="assets/images/favicon.png">
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:700%7CSource+Sans+Pro:400,600,700&display=swap">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
     </head>
 
     <body>
         <ul class="skip-links">
             <li>
-                <a class="screen-reader-text" href="#navigation">Skip to navigation</a>
+                <a class="screen-reader-text" href="/#navigation">Skip to navigation</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#content">Skip to content</a>
+                <a class="screen-reader-text" href="/#content">Skip to content</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#itinerary">Skip to itinerary</a>
+                <a class="screen-reader-text" href="/#itinerary">Skip to itinerary</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#course">Skip to course details</a>
+                <a class="screen-reader-text" href="/#course">Skip to course details</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#equipment">Skip to equipment section</a>
+                <a class="screen-reader-text" href="/#equipment">Skip to equipment section</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#faqs">Skip to FAQs</a>
+                <a class="screen-reader-text" href="/#faqs">Skip to FAQs</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#footer">Skip to footer</a>
+                <a class="screen-reader-text" href="/#footer">Skip to footer</a>
             </li>
         </ul>
-        <?php require 'includes/header.php'; ?>
+        <?php require '../includes/header.php'; ?>
 
         <main class="site-inner">
             <section class="hero-image -about">
@@ -51,11 +51,11 @@
 
             <section id="content">
                 <div class="wrap">
-                    <h2>AITH Multisport Weekend Event Information</h2>
+                    <h2>ANW Multisport Weekend Event Information</h2>
 
-                    <p class="lead-text">Ace in the Hole Multisport Event is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for every body.</p>
+                    <p class="lead-text">Active Northwest Multisport Event is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for every body.</p>
 
-                    <p>The Annual Ace in the Hole Multisport Weekend is a legendary event in the Oregon triathlon and running community. It has become a traditional destination race for athletes from across the nation.</p>
+                    <p>The Annual Active Northwest Multisport Weekend is a legendary event in the Oregon triathlon and running community. It has become a traditional destination race for athletes from across the nation.</p>
 
                     <p>There is something for every level of athletic ability. The action-packed weekend includes a first timer triathlon, a sprint and olympic triathlons, a half-iron triathlon, 10K and half marathon runs. Wether you come to experience your first race or come ready to win, we're sure you'll have fun!</p>
 
@@ -180,7 +180,7 @@
 
                     <h4>Splash n Dash</h4>
 
-                    <p>Kids event for participants ages 4 to 15. This is a 100 yard swim and a 50 yard dash. It is free if an adult <a href="register.php">registers</a> for an event otherwise it is $25.</p>
+                    <p>Kids event for participants ages 4 to 15. This is a 100 yard swim and a 50 yard dash. It is free if an adult <a href="../register/">registers</a> for an event otherwise it is $25.</p>
 
                     <hr>
                 </div>
@@ -272,7 +272,7 @@
                 </div>
             </section>
         </main>
-        <?php require 'includes/footer.php'; ?>
+        <?php require '../includes/footer.php'; ?>
     </body>
 
 </html>
