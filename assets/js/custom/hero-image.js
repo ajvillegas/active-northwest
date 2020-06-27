@@ -1,7 +1,7 @@
 /**
  * Fix the hero image fixed background on mobile devices.
  *
- * @package    AceInTheHole
+ * @package    ActiveNorthwest
  * @author     Alexis J. Villegas
  * @link       http://www.alexisvillegas.com
  * @license    GPL-2.0+

@@ -1,7 +1,7 @@
 /**
  * Add support for modern functionality on older browsers that do not natively support it.
  *
- * @package    AceInTheHole
+ * @package    ActiveNorthwest
  * @author     Alexis J. Villegas
  * @link       http://www.alexisvillegas.com
  * @license    GPL-2.0+

@@ -1,7 +1,7 @@
 /**
  * Sticky header offset for anchor links.
  *
- * @package    AceInTheHole
+ * @package    ActiveNorthwest
  * @author     Ian Clark
  * @link       https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header#13067009
  * @license    GPL-2.0+
