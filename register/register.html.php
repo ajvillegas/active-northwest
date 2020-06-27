@@ -8,26 +8,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Athletes can register here to participate in one of the many sport events we host over the weekend.">
 
-        <title>Event Registration | Ace in the Hole Multisport Event</title>
+        <title>Event Registration | Active Northwest Multisport Event</title>
 
-        <link rel="shortcut icon" href="assets/images/favicon.png">
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:700%7CSource+Sans+Pro:400,600,700&display=swap">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
     </head>
 
     <body>
         <ul class="skip-links">
             <li>
-                <a class="screen-reader-text" href="#navigation">Skip to navigation</a>
+                <a class="screen-reader-text" href="/#navigation">Skip to navigation</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#content">Skip to content</a>
+                <a class="screen-reader-text" href="/#content">Skip to content</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#footer">Skip to footer</a>
+                <a class="screen-reader-text" href="/#footer">Skip to footer</a>
             </li>
         </ul>
-        <?php require 'includes/header.php'; ?>
+        <?php require '../includes/header.php'; ?>
 
         <main class="site-inner">
             <section class="hero-image -register">
@@ -39,7 +39,7 @@
 
             <section id="content">
                 <div class="wrap">
-                    <h2>The Annual AITH Multisport Weekend Spring 2020</h2>
+                    <h2>The Annual ANW Multisport Weekend Spring 2021</h2>
 
                     <p class="lead-text">Ready to register? We have something for every level of athletic ability.</p>
 
@@ -91,7 +91,7 @@
                         <li>Access to the weekend's live entertainment & fitness expo.</li>
                         <li>Commemorative finisher medal.</li>
                         <li>Accurate chip timing for competitive races.</li>
-                        <li>Ace in the Hole Multisport Weekend tech shirt (guaranteed to pre-registered participants only).</li>
+                        <li>Active Northwest Multisport Weekend tech shirt (guaranteed to pre-registered participants only).</li>
                         <li>Post-event party and entertainment.</li>
                     </ul>
 
@@ -100,7 +100,7 @@
                     <h3>Registration Details</h3>
 
                     <ul class="default-ul">
-                        <li>The registration <strong>deadline is March 21st 2020</strong>, or earlier if capacity is reached.</li>
+                        <li>The registration <strong>deadline is March 21st 2021</strong>, or earlier if capacity is reached.</li>
                         <li>Payment will be submitted during the course packet pick up at <a href="https://www.google.com/maps/place/123+NW+Everett+St,+Portland,+OR+97209/@45.5256439,-122.6742046,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a0aa74a759fd:0x54517259a8f0e3b3!8m2!3d45.5256402!4d-122.6720159">Why Worry Racing, 123 NW Everett, Portland OR</a>.</li>
                         <li>Packet pick up hours: Thursday 8 AM - 5 PM, Friday 9 AM - 12 PM. <strong>No day of event packet pick up</strong>.</li>
                     </ul>
@@ -138,13 +138,13 @@
                                 </p>
 
                                 <p class="one-half">
-                                    <label for="gender">Gender:</label>
+                                    <label for="gender">I Identify my Gender as:</label>
                                     <select class="full-width" name="gender" id="gender">
                                         <option value="" disabled selected>Choose Gender</option>
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>
-                                        <option value="Non-binary">Non-binary</option>
-                                        <option value="Other">Other</option>
+                                        <option value="Genderqueer/Non-binary">Genderqueer/Non-binary</option>
+                                        <option value="Not disclosed">Prefer not to disclose</option>
                                     </select>
                                 </p>
                             </div>
@@ -211,7 +211,7 @@
                 </div>
             </section>
         </main>
-        <?php require 'includes/footer.php'; ?>
+        <?php require '../includes/footer.php'; ?>
     </body>
 
 </html>
