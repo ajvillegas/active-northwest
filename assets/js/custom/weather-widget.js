@@ -1,7 +1,7 @@
 /**
  * The weather widget functionality of the website.
  *
- * @package    AceInTheHole
+ * @package    ActiveNorthwest
  * @author     Alexis J. Villegas
  * @link       http://www.alexisvillegas.com
  * @license    GPL-2.0+
@@ -21,44 +21,46 @@
 	const weekday = [ 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday' ];
 
 	// Fetch API.
-	fetch( api )
-		.then( response => {
+	fetch( api ).then( response => {
+		if ( response.ok ) {
 			return response.json();
-		})
-		.then( data => {
-			const { temperature, summary, icon } = data.currently;
-			const daySummary = data.hourly.summary;
-			const dailyData = data.daily.data;
+		}
+		return Promise.reject( response );
+	}).then( data => {
+		const baseURL = 'https://dev.activenw.com/';
+		const { temperature, summary, icon } = data.currently;
+		const daySummary = data.hourly.summary;
+		const dailyData = data.daily.data;
 
-			// Set DOM elements for current weather.
-			currentTemp.textContent = Math.round( temperature ) + '°F';
-			currentDesc.textContent = summary;
-			currentIcon.src = 'assets/images/icon/' + icon + '.svg';
-			currentIcon.title = daySummary;
+		// Set DOM elements for current weather.
+		currentTemp.textContent = Math.round( temperature ) + '°F';
+		currentDesc.textContent = summary;
+		currentIcon.src = baseURL + 'assets/images/icon/' + icon + '.svg';
+		currentIcon.title = daySummary;
 
-			// Weekly forecast.
-			for ( let i = 0; i < forecast.length; i++ ) {
+		// Weekly forecast.
+		for ( let i = 0; i < forecast.length; i++ ) {
 
-				// Select DOM elements.
-				const fullName = forecast[i].querySelector( '.fullname' );
-				const abbrName = forecast[i].querySelector( '.abbrname' );
-				const dayIcon = forecast[i].querySelector( '.dayicon > img' );
-				const dayTempMax = forecast[i].querySelector( '.tempmax' );
-				const dayTempMin = forecast[i].querySelector( '.tempmin' );
+			// Select DOM elements.
+			const fullName = forecast[i].querySelector( '.fullname' );
+			const abbrName = forecast[i].querySelector( '.abbrname' );
+			const dayIcon = forecast[i].querySelector( '.dayicon > img' );
+			const dayTempMax = forecast[i].querySelector( '.tempmax' );
+			const dayTempMin = forecast[i].querySelector( '.tempmin' );
 
-				// Get the day of the week index from UNIX timestamp.
-				const dayIndex = new Date( dailyData[i].time * 1000 ).getDay();
-				const dayName = weekday[dayIndex];
+			// Get the day of the week index from UNIX timestamp.
+			const dayIndex = new Date( dailyData[i].time * 1000 ).getDay();
+			const dayName = weekday[dayIndex];
 
-				// Set DOM elements for weekly forecast.
-				fullName.textContent = dayName;
-				abbrName.textContent = dayName.slice( 0, 3 );
-				dayIcon.src = 'assets/images/icon/' + dailyData[i].icon + '.svg';
-				dayIcon.title = dailyData[i].summary;
-				dayTempMax.textContent = Math.round( dailyData[i].temperatureMin ) + '°F';
-				dayTempMin.textContent = Math.round( dailyData[i].temperatureMax ) + '°F';
-			}
-		});
+			// Set DOM elements for weekly forecast.
+			fullName.textContent = dayName;
+			abbrName.textContent = dayName.slice( 0, 3 );
+			dayIcon.src = baseURL + 'assets/images/icon/' + dailyData[i].icon + '.svg';
+			dayIcon.title = dailyData[i].summary;
+			dayTempMax.textContent = Math.round( dailyData[i].temperatureMin ) + '°F';
+			dayTempMin.textContent = Math.round( dailyData[i].temperatureMax ) + '°F';
+		}
+	});
 
 	// Weather widget toggle.
 	document.addEventListener( 'click', function( event ) {
