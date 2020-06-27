@@ -7,8 +7,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="There was a 404 error. Page not found.">
+        <base href="https://dev.activenw.com/">
 
-        <title>404 Error | Ace in the Hole Multisport Event</title>
+        <title>404 Error | Active Northwest Multisport Event</title>
 
         <link rel="shortcut icon" href="assets/images/favicon.png">
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:700%7CSource+Sans+Pro:400,600,700&display=swap">
@@ -18,13 +19,13 @@
     <body>
         <ul class="skip-links">
             <li>
-                <a class="screen-reader-text" href="#navigation">Skip to navigation</a>
+                <a class="screen-reader-text" href="/#navigation">Skip to navigation</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#content">Skip to content</a>
+                <a class="screen-reader-text" href="/#content">Skip to content</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#footer">Skip to footer</a>
+                <a class="screen-reader-text" href="/#footer">Skip to footer</a>
             </li>
         </ul>
         <?php require 'includes/header.php'; ?>
@@ -41,7 +42,7 @@
                 <div class="wrap">
                     <p class="lead-text">The page you are looking for doesn't exist.</p>
 
-                    <p> Try to go back to the <a href="index.php">homepage</a> and see if you can find what you are looking for, or browse the sitemap below to go to a specific page on the site.</p>
+                    <p> Try to go back to the <a href="/">homepage</a> and see if you can find what you are looking for, or browse the sitemap below to go to a specific page on the site.</p>
 
                     <hr>
 
@@ -49,22 +50,22 @@
 
                     <ul class="default-ul">
                         <li>
-                            <a href="index.php"><span>Home</span></a>
+                            <a href="/"><span>Home</span></a>
                         </li>
                         <li>
-                            <a href="about.php"><span>About</span></a>
+                            <a href="/about/"><span>About</span></a>
                         </li>
                         <li>
-                            <a href="register.php"><span>Register</span></a>
+                            <a href="/register/"><span>Register</span></a>
                         </li>
                         <li>
-                            <a href="volunteer.php"><span>Volunteer</span></a>
+                            <a href="/volunteer/"><span>Volunteer</span></a>
                         </li>
                         <li>
-                            <a href="gallery.php"><span>Gallery</span></a>
+                            <a href="/gallery/"><span>Gallery</span></a>
                         </li>
                         <li>
-                            <a href="contact.php"><span>Contact</span></a>
+                            <a href="/contact/"><span>Contact</span></a>
                         </li>
                     </ul>
                 </div>
