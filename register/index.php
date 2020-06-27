@@ -2,14 +2,14 @@
 /**
  * This file establishes the database connection and inserts the form data.
  *
- * @package    AceInTheHole
+ * @package    ActiveNorthwest
  * @author     Alexis J. Villegas
  * @link       http://www.alexisvillegas.com
  * @license    GPL-2.0+
  */
 
 // Connect to the database.
-include 'includes/db-connect.php';
+require '../includes/db-connect.php';
 
 // Check if full name has a value and honeypot field is empty.
 if (isset($_POST['fullname']) && empty($_POST['honeypot'])) {
@@ -52,12 +52,12 @@ if (isset($_POST['fullname']) && empty($_POST['honeypot'])) {
         $s->execute();
     } catch (PDOException $e) {
         $error = 'Error adding submitted registration: ' . $e->getMessage();
-        include 'includes/error.html.php';
+        require '../includes/error.html.php';
         exit();
     }
 
     // Load the thank you page after the INSERT runs.
-    include 'includes/success-register.html.php';
+    require 'success-register.html.php';
 } else {
-    include 'includes/register.html.php';
+    require 'register.html.php';
 }
