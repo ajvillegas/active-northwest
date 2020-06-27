@@ -5,7 +5,7 @@
  * Rename to constants.php to use in this context, and update
  * each constant value.
  *
- * @package    AceInTheHole
+ * @package    ActiveNorthwest
  * @author     Alexis J. Villegas
  * @link       http://www.alexisvillegas.com
  * @license    GPL-2.0+
