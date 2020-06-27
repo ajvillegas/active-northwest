@@ -2,10 +2,10 @@
 /**
  * This file configures PHPMailer to handle contact form submissions.
  *
- * Rename to contact.php to use in this context, and fill out the
- * correct credentials for your host's SMTP server.
+ * Rename to index.php inside the contact/ folder to use in this context,
+ * and fill out the correct credentials for your host's SMTP server.
  *
- * @package    AceInTheHole
+ * @package    ActiveNorthwest
  * @author     Alexis J. Villegas
  * @link       http://www.alexisvillegas.com
  * @license    GPL-2.0+
@@ -21,9 +21,9 @@ if (isset($_POST['c_fullname']) && empty($_POST['honeypot'])) {
 
     date_default_timezone_set('Etc/UTC');
 
-    require 'includes/vendors/phpmailer/PHPMailerAutoload.php';
+    require '../includes/vendors/phpmailer/PHPMailerAutoload.php';
 
-    //Create a new PHPMailer instance.
+    // Create a new PHPMailer instance.
     $mail = new PHPMailer;
 
     // Tell PHPMailer to use SMTP.
@@ -36,13 +36,13 @@ if (isset($_POST['c_fullname']) && empty($_POST['honeypot'])) {
     $mail->Username = 'username';
     $mail->Password = 'password';
     // Use a fixed address in your own domain as the from address.
-    $mail->setFrom('email@domain.com', 'Your Name');
+    $mail->setFrom('email@domain.com', 'Active Northwest');
     // Send the message to yourself, or whoever should receive contact for submissions.
     $mail->addAddress('other.email@domain.com', 'Your Name');
 
     // Put the submitter's address in a reply-to header.
     if ($mail->addReplyTo($email, $name)) {
-        $mail->Subject = 'Ace in the Hole Contact Form';
+        $mail->Subject = 'Active Northwest Contact Form';
         $mail->isHTML(true);
         // Build a simple message body.
         $mail->Body = <<<EOT
@@ -54,15 +54,15 @@ EOT;
         //Send the message, check for errors.
         if (! $mail->send()) {
             // Display error message.
-            $error = "Mailer Error:" .  $mail->ErrorInfo;
-            include 'includes/error.html.php';
+            $error = "Mailer Error: " .  $mail->ErrorInfo;
+            require '../includes/error.html.php';
             exit();
         } else {
-            include 'includes/success-contact.html.php';
+            require 'success-contact.html.php';
         }
     } else {
-        include 'includes/contact.html.php';
+        require 'contact.html.php';
     }
 } else {
-    include 'includes/contact.html.php';
+    require 'contact.html.php';
 }
