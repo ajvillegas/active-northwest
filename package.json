@@ -1,11 +1,11 @@
 {
-  "name": "ace-in-the-hole",
+  "name": "active-northwest",
   "description": "A website for a fictional sports event company in Portland Oregon.",
   "version": "1.0.0",
   "author": "Alexis J. Villegas (https://www.alexisvillegas.com/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ajvillegas/ace-in-the-hole"
+    "url": "https://github.com/ajvillegas/active-northwest"
   },
   "license": "MIT",
   "devDependencies": {
