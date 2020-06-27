@@ -8,26 +8,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="We love to hear from you. Use the form in this page to get in touch with any general inquires.">
 
-        <title>Contact Us | Ace in the Hole Multisport Event</title>
+        <title>Contact Us | Active Northwest Multisport Event</title>
 
-        <link rel="shortcut icon" href="assets/images/favicon.png">
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:700%7CSource+Sans+Pro:400,600,700&display=swap">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
     </head>
 
     <body>
         <ul class="skip-links">
             <li>
-                <a class="screen-reader-text" href="#navigation">Skip to navigation</a>
+                <a class="screen-reader-text" href="/#navigation">Skip to navigation</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#content">Skip to content</a>
+                <a class="screen-reader-text" href="/#content">Skip to content</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#footer">Skip to footer</a>
+                <a class="screen-reader-text" href="/#footer">Skip to footer</a>
             </li>
         </ul>
-        <?php require 'includes/header.php'; ?>
+        <?php require '../includes/header.php'; ?>
 
         <main class="site-inner">
             <section class="hero-image">
@@ -61,7 +61,7 @@
                         <div class="content">
                             <h2 class="heading"><span>Phone</span></h2>
 
-                            <a href="tel:9715552484">(971) 555-AITH</a>
+                            <a href="tel:9715552484">(971) 555-2484</a>
                         </div>
                     </div>
 
@@ -69,7 +69,7 @@
                         <div class="content">
                             <h2 class="heading"><span>Email</span></h2>
 
-                            <a href="mailto:aith.event@gmail.com">aith.event@gmail.com</a>
+                            <a href="mailto:&#097;&#110;&#119;&#046;&#101;&#118;&#101;&#110;&#116;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#097;&#110;&#119;&#046;&#101;&#118;&#101;&#110;&#116;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                 </div>
             </section>
         </main>
-        <?php require 'includes/footer.php'; ?>
+        <?php require '../includes/footer.php'; ?>
     </body>
 
 </html>
