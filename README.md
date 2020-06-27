@@ -9,6 +9,6 @@ The website was built with HTML, CSS, PHP and JavaScript. It uses the [Fetch API
 **Prominent features include:**
 
 * Mobile-first responsive layout
-* Local weather widget written in vanilla JavaScript using the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+* Local weather widget written in JavaScript using the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * Registration form that gathers and stores user data in a MySQL database
 * Contact form for emailing administrators through SMTP
