@@ -8,9 +8,9 @@
 module.exports = {
 
 	// Project options.
-	projectURL: 'http://dev.pcc.com/cas222/template/', // Local project URL of your already running site.
-	sslKey: '/Applications/MAMP/Library/OpenSSL/certs/dev.pcc.com.key', // Path to SSL localhost.key
-	sslCert: '/Applications/MAMP/Library/OpenSSL/certs/dev.pcc.com.crt', // Path to SSL localhost.crt
+	projectURL: 'https://dev.activenw.com/', // Local project URL of your already running site.
+	sslKey: '/Applications/MAMP/Library/OpenSSL/certs/dev.activenw.com.key', // Path to SSL localhost.key
+	sslCert: '/Applications/MAMP/Library/OpenSSL/certs/dev.activenw.com.crt', // Path to SSL localhost.crt
 	productURL: './', // Leave it like it is, since our gulpfile.js lives in the root folder.
 	browserAutoOpen: false,
 	injectChanges: true,
