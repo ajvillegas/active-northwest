@@ -6,13 +6,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Ace in the Hole Multisport Events offers running and triathlon events to athletes of all shapes and sizes, nationality, gender and cultural backgrounds.">
+        <meta name="description" content="Active Northwest Multisport Events offers running and triathlon events to athletes of all shapes and sizes, nationality, gender and cultural backgrounds.">
 
-        <title>Ace in the Hole Multisport Event</title>
+        <title>Active Northwest Multisport Event</title>
 
-        <link rel="shortcut icon" href="assets/images/favicon.png">
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:700%7CSource+Sans+Pro:400,600,700&display=swap">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
 
         <style>
             .color-palette::after{clear:both;content:'';display:block}.color-palette>.section{margin-bottom:2rem}.color-palette>.section::after,.color-palette>.section>.colorgroup::after,.color-palette>.section>.textgroup::after{clear:both;content:'';display:block}.color-palette>.section>.colorgroup>.color,.color-palette>.section>.textgroup>.color{margin-bottom:2.6315789474%;width:100%}@media only screen and (min-width:900px){.color-palette>.section>.colorgroup>.color,.color-palette>.section>.textgroup>.color{float:left;margin-left:2.6315789474%}}.color-palette>.section>.colorgroup>.color{-webkit-box-sizing:border-box;box-sizing:border-box;position:relative;min-height:185px}@media only screen and (min-width:900px){.color-palette>.section>.colorgroup>.color{width:23.0263157895%;padding-top:calc(23.0263157895% - 2px);min-height:initial}}.color-palette>.section>.textgroup>.color{display:table;min-height:185px}@media only screen and (min-width:900px){.color-palette>.section>.textgroup>.color{width:48.6842105263%}}.color-palette>.section>.colorgroup>.color:nth-child(4n+1),.color-palette>.section>.textgroup>.color:nth-child(2n+1){margin-left:0}.color-palette>.section>.colorgroup>.color>.info{margin:0}.color-palette>.section>.colorgroup>.color>.info>.heading,.color-palette>.section>.colorgroup>.color>.info>.value{display:block;position:absolute;left:1rem;font-size:1.8181818182rem}.color-palette>.section>.colorgroup>.color>.info>.heading{text-transform:uppercase;top:1rem}.color-palette>.section>.colorgroup>.color>.info>.value{bottom:1rem}.color-palette>.section>.textgroup>.color>p{display:table-cell;vertical-align:middle;padding:3rem;margin:0}@media only screen and (min-width:768px){.color-palette>.section>.textgroup>.color>p{padding:6rem}}.color-palette>.section>.colorgroup>.color.-primary,.color-palette>.section>.textgroup>.color.-primary{background-color:#fb2740;border:1px solid #fb2740}.color-palette>.section>.colorgroup>.color.-primary .heading,.color-palette>.section>.colorgroup>.color.-primary .value,.color-palette>.section>.textgroup>.color.-primary .heading,.color-palette>.section>.textgroup>.color.-primary .value{color:#000}.color-palette>.section>.colorgroup>.color.-secondary,.color-palette>.section>.textgroup>.color.-secondary{background-color:#17191d;border:1px solid #17191d}.color-palette>.section>.colorgroup>.color.-secondary .heading,.color-palette>.section>.colorgroup>.color.-secondary .value,.color-palette>.section>.textgroup>.color.-secondary .heading,.color-palette>.section>.textgroup>.color.-secondary .value{color:#6c7583}.color-palette>.section>.colorgroup>.color.-tertiary,.color-palette>.section>.textgroup>.color.-tertiary{background-color:#04d8bf;border:1px solid #04d8bf}.color-palette>.section>.colorgroup>.color.-tertiary .heading,.color-palette>.section>.colorgroup>.color.-tertiary .value,.color-palette>.section>.textgroup>.color.-tertiary .heading,.color-palette>.section>.textgroup>.color.-tertiary .value{color:#000}.color-palette>.section>.colorgroup>.color.-background,.color-palette>.section>.textgroup>.color.-background{background-color:#fff;border:1px solid #d9d9d9}.color-palette>.section>.colorgroup>.color.-background .heading,.color-palette>.section>.colorgroup>.color.-background .value,.color-palette>.section>.textgroup>.color.-background .heading,.color-palette>.section>.textgroup>.color.-background .value{color:#666}.color-palette>.section>.colorgroup>.color.-darkgray{background-color:#272a2f;border:1px solid #272a2f}.color-palette>.section>.colorgroup>.color.-darkgray .heading,.color-palette>.section>.colorgroup>.color.-darkgray .value{color:#6c7583}.color-palette>.section>.colorgroup>.color.-mediumgray{background-color:#474d57;border:1px solid #474d57}.color-palette>.section>.colorgroup>.color.-mediumgray .heading,.color-palette>.section>.colorgroup>.color.-mediumgray .value{color:#000}.color-palette>.section>.colorgroup>.color.-lightgray{background-color:#d8d8d8;border:1px solid #d8d8d8}.color-palette>.section>.colorgroup>.color.-lightgray .heading,.color-palette>.section>.colorgroup>.color.-lightgray .value{color:#3f3f3f}.color-palette>.section>.colorgroup>.color.-verylightgray{background-color:#f7f6f6;border:1px solid #f7f6f6}.color-palette>.section>.colorgroup>.color.-verylightgray .heading,.color-palette>.section>.colorgroup>.color.-verylightgray .value{color:#635858}.color-palette>.section>.colorgroup>.color.-alert{background-color:#fff6bf;border:1px solid #fff6bf}.color-palette>.section>.colorgroup>.color.-alert .heading,.color-palette>.section>.colorgroup>.color.-alert .value{color:#8c7800}.color-palette>.section>.colorgroup>.color.-error{background-color:#fbe3e4;border:1px solid #fbe3e4}.color-palette>.section>.colorgroup>.color.-error .heading,.color-palette>.section>.colorgroup>.color.-error .value{color:#97161b}.color-palette>.section>.colorgroup>.color.-notice{background-color:#e5edf8;border:1px solid #e5edf8}.color-palette>.section>.colorgroup>.color.-notice .heading,.color-palette>.section>.colorgroup>.color.-notice .value{color:#244e87}.color-palette>.section>.colorgroup>.color.-success{background-color:#e6efc2;border:1px solid #e6efc2}.color-palette>.section>.colorgroup>.color.-success .heading,.color-palette>.section>.colorgroup>.color.-success .value{color:#56651a}.color-palette>.section>.textgroup>.color>p>.primary{color:#fb2740}.color-palette>.section>.textgroup>.color>p>.secondary{color:#17191d}.color-palette>.section>.textgroup>.color>p>.tertiary{color:#04d8bf}.color-palette>.section>.textgroup>.color>p>.background{color:#fff}
@@ -22,34 +22,34 @@
     <body>
         <ul class="skip-links">
             <li>
-                <a class="screen-reader-text" href="#navigation">Skip to navigation</a>
+                <a class="screen-reader-text" href="/#navigation">Skip to navigation</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#typography">Skip to typography section</a>
+                <a class="screen-reader-text" href="/#typography">Skip to typography section</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#buttons">Skip to buttons section</a>
+                <a class="screen-reader-text" href="/#buttons">Skip to buttons section</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#forms">Skip to forms section</a>
+                <a class="screen-reader-text" href="/#forms">Skip to forms section</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#tables">Skip to tables section</a>
+                <a class="screen-reader-text" href="/#tables">Skip to tables section</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#colors">Skip to colors section</a>
+                <a class="screen-reader-text" href="/#colors">Skip to colors section</a>
             </li>
             <li>
-                <a class="screen-reader-text" href="#footer">Skip to footer</a>
+                <a class="screen-reader-text" href="/#footer">Skip to footer</a>
             </li>
         </ul>
-        <?php require 'includes/header.php'; ?>
+        <?php require '../includes/header.php'; ?>
 
         <main class="site-inner">
             <section class="hero-image">
                 <div class="wrap">
                     <h1 class="heading">Website Style Guide</h1>
-                    <p class="subheading">Ace in the Hole Design Style Standards</p>
+                    <p class="subheading">Active Northwest Design Style Standards</p>
                 </div>
             </section>
 
@@ -500,7 +500,7 @@ var tomorrow = function tomorrow() {
                 </div>
             </section>
         </main>
-        <?php require 'includes/footer.php'; ?>
+        <?php require '../includes/footer.php'; ?>
     </body>
 
 </html>
