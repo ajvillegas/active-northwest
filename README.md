@@ -1,6 +1,6 @@
 # Active Northwest Multisport Event
 
-A fictional website for a sports event company in Portland, OR which organizes a yearly inclusive running/triathlon event weekend for athletes of all physical abilities, national origins, gender identifications and cultural backgrounds.
+A website for a fictional sports event company in Portland Oregon which organizes a yearly inclusive running/triathlon event weekend for athletes of all physical abilities, national origins, gender identifications and cultural backgrounds.
 
 ## Website Features
 
