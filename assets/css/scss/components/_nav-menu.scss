@@ -34,11 +34,7 @@ nav.nav-menu {
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.1rem;
-
-		@include media(medium) {
-			display: inline-block;
-			vertical-align: middle;
-		}
+		display: inline-block;
 	}
 
 	a {
@@ -114,6 +110,15 @@ nav.nav-menu {
 		@include media(medium) {
 			padding-right: 0;
 		}
+	}
+}
+
+.js nav.nav-menu li {
+	display: block;
+
+	@include media(medium) {
+		display: inline-block;
+		vertical-align: middle;
 	}
 }
 
