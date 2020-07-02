@@ -37,6 +37,7 @@
 		currentDesc.textContent = summary;
 		currentIcon.src = baseURL + 'assets/images/icon/' + icon + '.svg';
 		currentIcon.title = daySummary;
+		currentIcon.alt = daySummary;
 
 		// Weekly forecast.
 		for ( let i = 0; i < forecast.length; i++ ) {
@@ -57,6 +58,7 @@
 			abbrName.textContent = dayName.slice( 0, 3 );
 			dayIcon.src = baseURL + 'assets/images/icon/' + dailyData[i].icon + '.svg';
 			dayIcon.title = dailyData[i].summary;
+			dayIcon.alt = dailyData[i].summary;
 			dayTempMax.textContent = Math.round( dailyData[i].temperatureMin ) + '°F';
 			dayTempMin.textContent = Math.round( dailyData[i].temperatureMax ) + '°F';
 		}
