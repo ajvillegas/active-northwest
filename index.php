@@ -48,22 +48,22 @@
                 <div class="wrap">
                     <div class="imagebox">
                         <a href="/about/#itinerary">
-                            <img src="assets/images/image-link1.jpg" alt="Itinerary Image Link">
-                            <h3 class="heading">Itinerary</h3>
+                            <h3 class="heading">Itinerary<span class="screen-reader-text">:</span></h3>
+                            <img src="assets/images/image-link1.jpg" alt="Woman running in front of fellow competitors smiling while extending arms and making a peace sign with both hands.">
                         </a>
                     </div>
 
                     <div class="imagebox">
                         <a href="/about/#course">
-                            <img src="assets/images/image-link2.jpg" alt="Course Details Image Link">
-                            <h3 class="heading">Course</h3>
+                            <h3 class="heading">Course<span class="screen-reader-text">:</span></h3>
+                            <img src="assets/images/image-link2.jpg" alt="Group of women competitors running together wearing sports hats and camelback hydration backpacks.">
                         </a>
                     </div>
 
                     <div class="imagebox">
                         <a href="/volunteer/">
-                            <img src="assets/images/image-link3.jpg" alt="Volunteer Image Link">
-                            <h3 class="heading">Volunteer</h3>
+                            <h3 class="heading">Volunteer<span class="screen-reader-text">:</span></h3>
+                            <img src="assets/images/image-link3.jpg" alt="Group of three women competitors wearing read jerseys pose and smile for the camera.">
                         </a>
                     </div>
                 </div>
@@ -85,43 +85,43 @@
                     <div class="masonry-gallery">
                         <figure class="brick">
                             <a href="assets/images/gallery/ace2.jpg">
-                                <img src="assets/images/gallery/ace2.jpg" alt="Past Event Participants">
+                                <img src="assets/images/gallery/ace2.jpg" alt="Older woman walks on marathon competition with the help of crutches.">
                             </a>
                         </figure>
 
                         <figure class="brick">
                             <a href="assets/images/gallery/ace1.jpg">
-                                <img src="assets/images/gallery/ace1.jpg" alt="Past Event Participants">
+                                <img src="assets/images/gallery/ace1.jpg" alt="Group of triathlon competitors rush to the water to begin the swiming portion.">
                             </a>
                         </figure>
 
                         <figure class="brick">
                             <a href="assets/images/gallery/ace3.jpg">
-                                <img src="assets/images/gallery/ace3.jpg" alt="Past Event Participants">
+                                <img src="assets/images/gallery/ace3.jpg" alt="A cyclist celebrates his approach to the finish line with extended arms in front of the other competitors.">
                             </a>
                         </figure>
 
                         <figure class="brick">
                             <a href="assets/images/gallery/ace4.jpg">
-                                <img src="assets/images/gallery/ace4.jpg" alt="Past Event Participants">
+                                <img src="assets/images/gallery/ace4.jpg" alt="Group of swimmers in wetsuits run to the water to begin the swimming race.">
                             </a>
                         </figure>
 
                         <figure class="brick">
                             <a href="assets/images/gallery/ace5.jpg">
-                                <img src="assets/images/gallery/ace5.jpg" alt="Past Event Participants">
+                                <img src="assets/images/gallery/ace5.jpg" alt="Cyclists ride in front of the sun on a clear day with blue skies.">
                             </a>
                         </figure>
 
                         <figure class="brick">
                             <a href="assets/images/gallery/ace6.jpg">
-                                <img src="assets/images/gallery/ace6.jpg" alt="Past Event Participants">
+                                <img src="assets/images/gallery/ace6.jpg" alt="Three triathlon competitors pose together for the camera on a beach.">
                             </a>
                         </figure>
 
                         <figure class="brick">
                             <a href="assets/images/gallery/ace7.jpg">
-                                <img src="assets/images/gallery/ace7.jpg" alt="Past Event Participants">
+                                <img src="assets/images/gallery/ace7.jpg" alt="A female runner high-fives expectators as she approaches the finish line.">
                             </a>
                         </figure>
                     </div>
