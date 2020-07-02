@@ -29,7 +29,6 @@ require 'functions.php';
                 <div class="site-logo">
                     <a href="/">
                         <img src="<?php echo $base_url; ?>assets/images/logo.svg" alt="Active Northwest Logo" />
-                        <p class="screen-reader-text">Active Northwest</p>
                     </a>
                 </div>
 
