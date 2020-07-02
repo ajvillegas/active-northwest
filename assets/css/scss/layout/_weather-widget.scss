@@ -2,6 +2,12 @@
 --------------------------------------------- */
 
 .weather-widget {
+	display: none;
+}
+
+.js .weather-widget {
+	display: initial;
+
 	@include media(medium) {
 		float: right;
 	}
