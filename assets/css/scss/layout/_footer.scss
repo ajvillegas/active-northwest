@@ -101,6 +101,18 @@ footer .widgets {
 		height: 240px;
 		border: 1px solid darken($medium-gray, 5%);
 		box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.google-map .no-map {
+		text-align: center;
+		padding: 2rem;
+	}
+
+	.js .google-map .no-map {
+		display: none;
 	}
 }
 
