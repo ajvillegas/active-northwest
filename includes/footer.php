@@ -62,7 +62,9 @@
                 <div class="one-third map">
                     <h4>Event Location</h4>
 
-                    <div class="google-map"></div>
+                    <div class="google-map">
+                        <div class="no-map">Enable JavaScript to display map</div>
+                    </div>
                 </div>
             </div>
 
